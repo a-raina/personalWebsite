@@ -1,0 +1,117 @@
+body{
+    background-color: beige;
+}
+
+@media only screen and (min-width: 700px){
+    #aboutMe-bgimage{
+       background-image:url(../images/aboutMeImage_1.jpg);
+       background-repeat:no-repeat; 
+       background-position: top right;
+        background-attachment: fixed;
+/*
+       width: 35%;
+        height:auto;
+*/
+       background-size: 35% 125%;
+       margin-right: 40%;
+    }
+}
+
+
+
+.bgimage{
+    background-image: url(../images/bgimage_3.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 450px;
+    margin-top: 50px;
+    opacity: 0.9;
+}
+
+.general-info section{
+    text-align: center;
+}
+
+div{
+    word-wrap: break-word;
+}
+
+#welcome{
+    text-align:center;
+    margin-top: 220px;
+}
+
+#quote{
+    text-align:center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.btn-circle {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 17px;
+    line-height: 1.428571429;
+    border-radius: 22px;
+}
+
+#toggleButton{
+    font-weight: bold;
+}
+
+.panel-heading{
+    cursor: pointer;
+}
+h1,h2,h3,p{
+    font-family: Georgia, serif;
+    color:black;
+    letter-spacing: 1px;
+    line-height: 200%;
+}
+
+
+blockquote{
+    letter-spacing: 2px; 
+    color:black;
+}
+
+ul:not(.actual-courses){
+    font-family: Georgia, serif;
+    color:black;
+    letter-spacing: 2px; 
+}
+
+.actual-courses > li{
+    font-family: Georgia, serif;
+    letter-spacing: 1px;
+    line-height: 200%;
+    font-size: 200%
+}
+
+ul:not(.nav):not(.actual-courses){
+    font-size: 1.5em;
+}
+
+.course-list{
+    font-family: Georgia, serif;
+    color:black;
+    letter-spacing: 1px;
+    line-height: 200%;
+}
+
+
+.actual-courses{
+    font-family: Georgia, serif;
+    letter-spacing: 1px;
+    font-size: 0.5em;
+}
+
+#contactMe-pics > a:hover{
+    opacity: 0.8;
+}
+
+.link-pics > a:hover > div > img{
+    opacity: 0.8;
+}
