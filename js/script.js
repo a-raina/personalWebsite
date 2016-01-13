@@ -12,7 +12,7 @@ function changeButtonText(){
 }
 
 var bgImage = document.getElementById("aboutMe-bgimage");
-var bgImageArray = ['../images/aboutMeImage_2.jpg','../images/aboutMeImage_3.jpg','../images/aboutMeImage_1.jpg'];
+var bgImageArray = ['images/aboutMeImage_2.jpg','images/aboutMeImage_3.jpg','images/aboutMeImage_1.jpg'];
 var bgImageIndex = 0;
 
 function change_bgImage(){
